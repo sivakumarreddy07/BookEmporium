@@ -1,0 +1,154 @@
+{
+  "categories": [
+    {
+      "categoryId": 1001,
+      "name": "Classics"
+    },
+    {
+      "categoryId": 1002,
+      "name": "Fantasy"
+    },
+    {
+      "categoryId": 1003,
+      "name": "Mystery"
+    },
+    {
+      "categoryId": 1004,
+      "name": "Romance"
+    },
+    {
+      "categoryId": 1005,
+      "name": "Science Fiction"
+    }
+  ],
+  "books": [
+    {
+      "bookId": 1001,
+      "title": "The Suffocate",
+      "author": "Niklas Reiniger",
+      "price": 1099,
+      "isPublic": false,
+      "categoryId": 1001
+    },
+    {
+      "bookId": 1002,
+      "title": "Without a Trace",
+      "author": "Danielle Steel",
+      "price": 1710,
+      "isPublic": true,
+      "categoryId": 1001
+    },
+    {
+      "bookId": 1003,
+      "title": "The Doctor’s Daughter",
+      "author": "Sharu J. Ryan",
+      "price": 1099,
+      "isPublic": false,
+      "categoryId": 1001
+    },
+    {
+      "bookId": 1004,
+      "title": "Haunting Adeline",
+      "author": "H.D. Carlton",
+      "price": 2100,
+      "isPublic": false,
+      "categoryId": 1001
+    },
+    {
+      "bookId": 1005,
+      "title": "Six Of Crows",
+      "author": "Leigh bardugo",
+      "price": 1589,
+      "isPublic": true,
+      "categoryId": 1002
+    },
+    {
+      "bookId": 1006,
+      "title": "Enemy Tribe",
+      "author": "Lori Holmes",
+      "price": 2000,
+      "isPublic": false,
+      "categoryId": 1002
+    },
+    {
+      "bookId": 1007,
+      "title": "Kalki",
+      "author": "M Rajaram",
+      "price": 1799,
+      "isPublic": false,
+      "categoryId": 1002
+    },
+    {
+      "bookId": 1008,
+      "title": "Witch Secrets",
+      "author": "Lisa Morrow",
+      "price": 1200,
+      "isPublic": false,
+      "categoryId": 1002
+    },
+    {
+      "bookId": 1009,
+      "title": "The Institute",
+      "author": "Stephen King",
+      "price": 800,
+      "isPublic": false,
+      "categoryId": 1005
+    },
+    {
+      "bookId": 1010,
+      "title": "The Ferryman",
+      "author": "Justin Cronin",
+      "price": 2155,
+      "isPublic": false,
+      "categoryId": 1005
+    },
+    {
+      "bookId": 1011,
+      "title": "Fractal Noise",
+      "author": "Christopher Paolini",
+      "price": 2000,
+      "isPublic": false,
+      "categoryId": 1005
+    },
+    {
+      "bookId": 1012,
+      "title": "Outriders",
+      "author": "Jay Posey",
+      "price": 1216,
+      "isPublic": true,
+      "categoryId": 1005
+    },
+    {
+      "bookId": 1013,
+      "title": "The Rescue Of Flight 1421",
+      "author": "T J Newman",
+      "price": 1865,
+      "isPublic": false,
+      "categoryId": 1003
+    },
+    {
+      "bookId": 1014,
+      "title": "Never Never",
+      "author": "Tarryn Fisher",
+      "price": 1300,
+      "isPublic": false,
+      "categoryId": 1003
+    },
+    {
+      "bookId": 1015,
+      "title": "The Last Thing He Told Me",
+      "author": "Laura Dave",
+      "price": 1289,
+      "isPublic": true,
+      "categoryId": 1003
+    },
+    {
+      "bookId": 1016,
+      "title": "Fairy Tale",
+      "author": "Stephen King",
+      "price": 1700,
+      "isPublic": false,
+      "categoryId": 1003
+    }
+  ]
+}

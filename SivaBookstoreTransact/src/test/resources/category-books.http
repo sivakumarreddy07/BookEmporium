@@ -1,0 +1,12 @@
+# Categories
+
+GET http://{{host}}:8080/{{project}}/api/categories
+Accept: application/json
+
+> {%
+    client.test("Categories", function() {
+        client.assert(response.status === 200, "Response status is not 200");
+        var type = response.contentType.mimeType;
+        client.assert(type === "application/json", "Expected 'application/json' but received '" + type + "'");
+    });
+%}

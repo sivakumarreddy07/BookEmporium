@@ -1,0 +1,67 @@
+###
+
+# curl 'http://localhost:8080/SivaBookstoreTransact/api/orders'
+#  -H 'Accept: */*'
+#  -H 'Accept-Language: en-US,en;q=0.9'
+#  -H 'Cache-Control: max-age=0'
+#  -H 'Connection: keep-alive'
+#  -H 'Content-Type: application/json'
+#  -H 'Origin: http://localhost:5173'
+#  -H 'Referer: http://localhost:5173/'
+#  -H 'Sec-Fetch-Dest: empty'
+#  -H 'Sec-Fetch-Mode: cors'
+#  -H 'Sec-Fetch-Site: same-site'
+#  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+#  -H 'sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"'
+#  -H 'sec-ch-ua-mobile: ?0'
+#  -H 'sec-ch-ua-platform: "macOS"'
+#  --data-raw '{"cart":{"itemArray":[{"book":{"bookId":1001,"title":"The Suffocate","author":"Niklas Reiniger","description":"","price":1099,"rating":0,"isPublic":false,"isFeatured":false,"categoryId":1001},"quantity":1}]},"customerForm":{"name":"shiva","address":"820Patrick","phone":"5406050025","email":"sangusivakumarreddy@gmail.com","ccNumber":"5555444433331111","ccExpiryMonth":8,"ccExpiryYear":2023}}'
+#  --compressed
+POST http://localhost:8080/SivaBookstoreTransact/api/orders
+Accept: */*
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Connection: keep-alive
+Origin: http://localhost:5173
+Referer: http://localhost:5173/
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+Content-Type: application/json
+
+{
+  "cart": {
+    "itemArray": [
+      {
+        "book": {
+          "bookId": 1001,
+          "title": "The Suffocate",
+          "author": "Niklas Reiniger",
+          "description": "",
+          "price": 1099,
+          "rating": 0,
+          "isPublic": false,
+          "isFeatured": false,
+          "categoryId": 1001
+        },
+        "quantity": 1
+      }
+    ]
+  },
+  "customerForm": {
+    "name": "shiva",
+    "address": "820Patrick",
+    "phone": "5406050025",
+    "email": "sangusivakumarreddy@gmail.com",
+    "ccNumber": "5555444433331111",
+    "ccExpiryMonth": 8,
+    "ccExpiryYear": 2023
+  }
+}
+
+###
+
